@@ -1,0 +1,1 @@
+/home/perception/catkin_ws/devel/.private/panda_hardware_interface/lib/pkgconfig/panda_hardware_interface.pc

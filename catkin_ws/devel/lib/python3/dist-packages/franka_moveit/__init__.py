@@ -1,0 +1,1 @@
+/home/perception/catkin_ws/devel/.private/franka_moveit/lib/python3/dist-packages/franka_moveit/__init__.py

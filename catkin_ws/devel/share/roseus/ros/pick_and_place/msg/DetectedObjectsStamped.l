@@ -1,0 +1,1 @@
+/home/perception/catkin_ws/devel/.private/pick_and_place/share/roseus/ros/pick_and_place/msg/DetectedObjectsStamped.l
