@@ -1,0 +1,23 @@
+# ROS2 workspace build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ros2_ws/src/franka_ros2/
+ros2_ws/src/moveit_resources/

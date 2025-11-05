@@ -1,0 +1,14 @@
+repositories:
+  franka_ros2:
+    type: git
+    url: https://github.com/frankaemika/franka_ros2.git
+    version: humble
+  moveit2_tutorials:
+    type: git
+    url: https://github.com/moveit/moveit2_tutorials.git
+    version: humble
+  panda_moveit_config:
+    type: git
+    url: https://github.com/moveit/moveit_resources.git
+    version: humble
+
