@@ -27,6 +27,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
         (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
+        (os.path.join('lib', package_name), glob('scripts/*')),
     ] + model_files,
     install_requires=['setuptools'],
     zip_safe=True,
@@ -37,9 +38,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'object_detector = pick_and_place.object_detector:main',
             'controller = pick_and_place.controller:main',
-            'pick_and_place_state_machine = pick_and_place.pick_and_place_state_machine:main',
+            'panda_ik_gui = pick_and_place.gui_end_effector:main',
         ],
     },
 )
